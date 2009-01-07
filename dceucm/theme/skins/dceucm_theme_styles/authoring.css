@@ -1,0 +1,50 @@
+body.kupu {
+    padding: 1em 1em 2em 1em !important;
+    background: &dtml-backgroundColor;;
+}
+
+body.kupu ol {
+	list-style-type: decimal;
+	margin-left: 2em;
+    line-height: 1.5em;
+    padding: 0;
+}
+
+body.kupu ul {
+    line-height: 1.5em;
+	list-style-type: disc;
+    list-style-image: none;
+    margin: 0.5em 0 0 1.5em!important;
+}
+
+body.kupu li {
+	margin-bottom: 0.25em;
+	line-height: 1.5em;
+	display: list-item;
+    margin-bottom: 0.5em;
+    display: list-item!important;
+}
+
+body.kupu blockquote {
+    padding-left: 0.5em;
+    margin-left: 0;
+    border-left: 4px solid &dtml-globalBorderColor;;
+    color: &dtml-discreetColor;;
+}
+body.kupu code, tt {
+    font-family: Monaco, "Courier New", Courier, monospace;
+    font-size: 120%;
+    color: &dtml-fontColor;;
+    background-color: &dtml-globalBackgroundColor;;
+    padding: 0 0.1em;
+}
+body.kupu pre {
+    font-family: Monaco, "Courier New", Courier, monospace;
+    font-size: 100%;
+    padding: 1em;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    color: &dtml-fontColor;;
+    background-color: &dtml-globalBackgroundColor;;
+    overflow: auto;
+}
+

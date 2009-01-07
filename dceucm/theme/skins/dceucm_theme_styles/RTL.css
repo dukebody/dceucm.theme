@@ -1,0 +1,206 @@
+body {
+	text-align: right;
+	background: url(body-rtl.gif) repeat-y right 0;
+}
+
+/* @group Columns */
+
+#portal-columns {
+	float: right;
+}
+
+/* @group Column One */
+
+#portal-column-one {
+	float: right;
+	margin-left: 500px;
+	margin-right: 0;
+}
+
+
+/* @end */
+
+/* @group Column Two */
+
+#portal-column-two {	
+	float: right;
+}
+
+
+/* @end */
+
+/* @end */
+
+#portal-column-content {
+	position: absolute;
+	right: 251px;
+	left: auto;
+}
+
+#portal-header {
+	float: right;
+	background: url(body-rtl.gif) repeat-y right 0;
+	padding-left: 10px;
+	padding-right: 0;
+	position: static;
+}
+
+.narrow #portal-header {
+	float: left;
+	background: url(body-rtl.gif) repeat-y right 0;
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.narrow #portal-top {
+	width: 737px;
+}
+
+ul#portal-globalnav {
+	float: left;
+	border-left: none;
+	border-right: 1px solid gray;
+	width: 700px;
+}
+
+ul#portal-globalnav li {
+	float: right;
+	border-right: 1px solid #7dabcf;
+	margin-right: -1px;
+	margin-left: 0;
+}
+
+ul#portal-globalnav li a {
+	min-height: 1.2em;
+}
+
+#portal-column-two dl.portletCalendar dt a.calendarNext {
+	margin-left: 0;
+	position: absolute;
+	left: 7px;
+	right: auto;
+	background: url(buttonBack.png) no-repeat 3px center;
+	float: left;
+}
+
+#portal-column-two dl.portletCalendar dt a.calendarPrevious {
+	margin-left: 0;
+	position: absolute;
+	left: 26px;
+	right: auto;
+	
+	background: url(buttonForward.png) no-repeat 3px center;
+	float: left;
+}
+
+a#portal-logo {
+	float: right;
+	height: 0;
+	padding-top: 63px;
+	overflow: hidden;
+	margin-right: 0;
+	background: url(logo-rtl.gif) no-repeat right;
+}
+
+.narrow a#portal-logo {
+	position: absolute;
+	height: 0;
+	right: 0;
+	top: 26px;
+}
+
+.narrow ul#portal-globalnav {
+	clear: left;
+	width: 434px;
+}
+
+ul#portal-siteactions
+ {
+	left: 0;
+	right: 0;
+	float: left;
+	text-align: left;
+}
+
+#portal-personaltools-wrapper {
+	float: left;
+	clear: left;
+	text-align: left;
+}
+
+.narrow #portal-personaltools-wrapper {
+	left: auto;
+	right: 0;
+	position: absolute;
+	top: 0;
+	text-align: right;
+}
+
+#portal-breadcrumbs {	right: 259px;
+	left: auto;
+	float: right;
+}
+
+#portal-breadcrumbs a, #portal-breadcrumbs span span {
+	float: right;
+	padding: 5px 10pt 5px 0;
+	background: url(breadCrumbDivider-rtl.gif) no-repeat right center;
+}
+
+#portal-column-one dl {
+	margin: 0 25px 25px 0;}
+
+div.managePortletsLink a  {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+}
+
+input.searchField {
+	background: url(searchField.png) no-repeat left center;
+	padding: 4px 5px 4px 20px;
+}
+
+dl.portletNavigationTree {
+	margin-left: auto !important;
+	margin-right: 0 !important;
+}
+
+dl.portletNavigationTree dd a {
+	padding-right: 25px;
+	padding-left: 6px;
+}
+
+ul.portletNavigationTree li ul {
+	margin-left: auto;
+	padding-left: 0;
+	border-left: none;
+	border-right: 1px solid #666;
+	padding-right: 0;
+	margin-right: 25px;
+}
+
+ul.portletNavigationTree li a img {
+	margin-left: auto;
+	margin-right: -19px;
+	float: right;
+}
+
+ul.portletNavigationTree li a {
+	background: url(edgeColour.gif) repeat-y left;
+}
+
+ul.portletNavigationTree li a.navTreeCurrentItem {
+	background: url(currentNav-rtl.gif) no-repeat left center;
+}
+
+.narrow dl.portletCalendar table {left:-8px;position:relative;width: 194px;
+	margin-left: auto;
+	margin-right: -5px;
+}
+
+.narrow dl.portletCalendar table th {
+	font-size: 9px;
+}
