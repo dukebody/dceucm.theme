@@ -803,7 +803,8 @@ a#portal-logo {
 	width: 250px;
 	float: left;
 	position: relative;
-	top: 0px;
+	top: 40px;
+    left: 40px;
 }
 
 .narrow a#portal-logo {
