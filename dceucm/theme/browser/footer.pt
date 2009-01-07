@@ -1,0 +1,5 @@
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
+    <p>
+        Delegación Central de Alumnos UCM
+    </p>
+</div>

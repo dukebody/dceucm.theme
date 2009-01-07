@@ -26,5 +26,15 @@
         directory="stylesheets"
         layer=".interfaces.IThemeSpecific"
         />
+        
+    <!-- The customized footer -->
+    <browser:viewlet
+        name="plone.footer"
+        for="*"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        layer=".interfaces.IThemeSpecific"
+        template="footer.pt"
+        permission="zope.Public"
+        />
 
 </configure>
