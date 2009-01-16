@@ -799,12 +799,11 @@ dl.toc dd ol {
 }
 
 a#portal-logo {
-	height: 53px;
-	width: 250px;
+        width: 250px;
 	float: left;
 	position: relative;
-	top: 40px;
-    left: 40px;
+	top: 20px;
+	left: 50px;
 }
 
 .narrow a#portal-logo {
