@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <object>
-
+  <hidden manager="plone.portaltop" skinname="DCEUCM Theme">
+    <viewlet name="plone.path_bar" />
+  </hidden>
 </object>
