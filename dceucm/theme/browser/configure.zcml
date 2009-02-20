@@ -36,5 +36,15 @@
         template="footer.pt"
         permission="zope.Public"
         />
+		
+	<!-- custom site actions template -->
+	<browser:viewlet
+        name="plone.site_actions"
+        for="*"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        layer=".interfaces.IThemeSpecific"
+        class=".site_actions.dceucm_site_actions"
+        permission="zope2.View"
+        />
 
 </configure>
