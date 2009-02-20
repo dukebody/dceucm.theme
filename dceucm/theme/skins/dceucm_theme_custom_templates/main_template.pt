@@ -69,6 +69,25 @@
                         dir python:test(isRTL, 'rtl', 'ltr')">
     <div id="visual-portal-wrapper">
 
+      <!-- UCM header -->
+      <div style="border-bottom:1px solid #C0C0C0; width:100%;">
+	<div style="float:left;margin-left:5px;">
+	  <a href="http://www.ucm.es" target="_blank">
+	    <img 
+		style="border:0px" 
+		alt="Logotipo de la UCM, pulse para acceder a la página principal de la Universidad Complutense de Madrid"
+		src="http://www.ucm.es/info/ucmp/temas/ucm5/images/logo3.gif" 
+		width="159" 
+		height="75">
+	  </a>
+	</div>
+	<h1 style="float:left; margin-top:40px; margin-left:100px; font-family:Times, Georgia, TimesNR, Palatino, Arial, sans-serif;color:rgb(198,33,66);font-size:2.0em;font-variant:small-caps;letter-spacing:0.1em; clear:none;">
+	Delegación Central de Estudiantes
+	</h1>
+	<div style="clear:both"></div>
+      </div>
+      <!-- UCM header -->
+
       <div id="portal-top" i18n:domain="plone">
         <div tal:replace="structure provider:plone.portaltop" />
       </div>
