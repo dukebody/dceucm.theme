@@ -46,5 +46,14 @@
         class=".site_actions.dceucm_site_actions"
         permission="zope2.View"
         />
+    
+    <!-- personal bar -->
+    <browser:viewlet
+        name="plone.personal_bar"
+        layer=".interfaces.IThemeSpecific"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+        permission="zope2.View"
+        />
 
 </configure>

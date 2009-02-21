@@ -3,4 +3,11 @@
   <hidden manager="plone.portaltop" skinname="DCEUCM Theme">
     <viewlet name="plone.path_bar" />
   </hidden>
+  <hidden manager="plone.portaltop" skinname="DCEUCM Theme">
+    <viewlet name="plone.personal_bar"/>
+    <viewlet name="plone.app.i18n.locales.languageselector" />
+  </hidden>
+  <order manager="plone.portalheader" skinname="DCEUCM Theme" based-on="Plone Default">
+    <viewlet name="plone.personal_bar" insert-after="plone.site_actions" />
+  </order>
 </object>
