@@ -155,7 +155,7 @@ legend {
 }
 
 a:link, a:visited {
-	color: #5a9bc6;
+	color: #3d50a2;
 }
 a:link:hover, a:visited:hover {
 	color: black;
@@ -1062,7 +1062,7 @@ ul#portal-globalnav {
 
 ul#portal-globalnav li {
 	float: left;
-	border-left: 1px solid #7dabcf;
+	border-left: 1px solid #28356b;
 	margin-left: -1px;
 	margin-right: 1px;
 }
@@ -1074,7 +1074,7 @@ ul#portal-globalnav li a {
 
 ul#portal-globalnav li.selected a {
 	color: white;
-	background-color: #7dabcf;
+	background-color: #3d50a2;
 }
 
 ul#portal-globalnav li a:hover {
@@ -1232,7 +1232,7 @@ ul#contentActionMenus li dt.label-state-visible a {
 ul#contentActionMenus li dt.label-state-published a {
 	color: white;
 	text-decoration: none;	
-	background-color: #7dabcf;
+	background-color: #3d50a2;
 	padding-right: 5px;
 	margin-right: 0;
 	padding-left: 5px;
@@ -1336,7 +1336,7 @@ h1 {
 
 h1.documentFirstHeading {
 	margin-bottom: 0.4em;
-    color: #5A9BC6;
+    color: #3d50a2;
     font-size: 20px;
     text-transform: lowercase;
     font-family: Arial, Helvetica;
@@ -1397,7 +1397,7 @@ h3 a:hover {
 }
 
 #region-content a:visited {
-	color: #427597;
+	color: #4065C9;
 }
 #region-content a:visited:hover {
 	color: Black;
@@ -1888,7 +1888,7 @@ body.smallText { font-size: 60%; }
 }
 
 .documentContent div#review-history dl {
-	background-color:#5A9BC6;
+	background-color:#3d50a2;
 	color:white;
 	margin:1em 0pt 0pt;
     border: none;
