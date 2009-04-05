@@ -11,7 +11,7 @@ fontSmallSize:string=85%
 
 backgroundColor:string=White
 
-linkColor:string=#436976
+linkColor:string=#3d50a2
 linkActiveColor:string=Red
 linkVisitedColor:string=Purple
 
@@ -19,9 +19,9 @@ borderWidth:string=1px
 borderStyle:string=solid
 borderStyleAnnotations:string=dashed
 
-globalBorderColor:string=#8cacbb
-globalBackgroundColor:string=#dee7ec
-globalFontColor:string=#436976
+globalBorderColor:string=#28356b
+globalBackgroundColor:string=#3d50a2
+globalFontColor:string=#3d50a2
 
 headingFontFamily:string="Times New Roman", Times, Georgia, serif
 
